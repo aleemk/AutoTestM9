@@ -29,12 +29,11 @@
         <name>Community</name>
     </types>
     <types>
-        <members>Charitable</members>
-        <members>Garage</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__LightningSales</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -72,10 +71,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>AutotestM8_Custom_label2</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
         <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
@@ -86,8 +81,6 @@
         <members>Activity</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
-        <members>AutotestM8_Custom_Object4__c</members>
-        <members>AutotestM8_Custom_object2__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
@@ -105,7 +98,6 @@
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
-        <members>Fundraiser__c</members>
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
@@ -129,26 +121,7 @@
         <members>Task</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>Vehicle__c</members>
         <name>CustomObject</name>
-    </types>
-    <types>
-        <members>AutotestM8_Custom_Object4__c-en_US</members>
-        <members>AutotestM8_Custom_object2__c-en_US</members>
-        <members>Fundraiser__c-en_US</members>
-        <members>Vehicle__c-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>Fundraiser__c</members>
-        <members>Vehicle__c</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>Account.Standard_Account_duplicate_rule</members>
-        <members>Contact.Standard_Contact_duplicate_rule</members>
-        <members>Lead.Standard_Lead_duplicate_rule</members>
-        <name>DuplicateRule</name>
     </types>
     <types>
         <members>unfiled$public</members>
@@ -163,6 +136,11 @@
         <name>EscalationRules</name>
     </types>
     <types>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
@@ -172,8 +150,6 @@
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
-        <members>AutotestM8_Custom_Object4__c-AutotestM8_Custom_Object3 Layout</members>
-        <members>AutotestM8_Custom_object2__c-AutotestM8_Custom_object2 Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -189,9 +165,8 @@
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
-        <members>FeedItem-Feed Item Layout</members>
-        <members>Fundraiser__c-Fundraiser Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -215,7 +190,6 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>Vehicle__c-Vehicle Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -247,7 +221,6 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
-        <members>Fundraiser__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -271,7 +244,6 @@
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>Vehicle__c.All</members>
         <members>WorkFeedbackRequest.AboutTopics</members>
         <members>WorkFeedbackRequest.All</members>
         <members>WorkFeedbackTemplate.All</members>
@@ -288,11 +260,6 @@
         <members>Contact</members>
         <members>Lead</members>
         <name>MatchingRules</name>
-    </types>
-    <types>
-        <members>Charitable_Developer</members>
-        <members>Garage_Developer</members>
-        <name>PermissionSet</name>
     </types>
     <types>
         <members>Admin</members>
@@ -466,7 +433,6 @@
         <members>Address</members>
         <members>BusinessHours</members>
         <members>Case</members>
-        <members>ChatterAnswers</members>
         <members>Company</members>
         <members>Contract</members>
         <members>Entitlement</members>
